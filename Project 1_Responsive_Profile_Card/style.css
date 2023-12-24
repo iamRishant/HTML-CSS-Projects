@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 65vh;
+    width: 50vh;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 7px 5px 10px 10px rgba(0, 0, 0, 0.129);
+    /* overflow hidden lgane se jo div ke upar div hoga wo wo ussi div ki trh hoga */
+    overflow: hidden;
+    position: relative;
+
+}
+.card .upper{
+    height: 30%;
+    width: 100%;
+    background-color: #4071ED;
+}
+.card .lower{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.upper{
+    margin-bottom: 10%;
+}
+.lower{
+    text-align: center;
+}
+.lower div{
+    padding: 2%;
+}
+.lower #icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card img{
+    height: 20vh;
+    width: 20vh;
+    position: absolute;
+    border-radius: 50%;
+    /* background-color: red; */
+    z-index: 10;
+    top: 5%;
+    left: 30%;
+    border:2px solid white;
+}
+.card .image img{
+    height: 50%;
+}
+.buttons{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #4071ED;
+    color: white;
+    font-size: 2vh;
+
+}
+#like-comment-share{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 6%;
+}
