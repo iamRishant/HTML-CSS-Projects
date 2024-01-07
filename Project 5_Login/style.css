@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F2F3;
+}
+.container{
+    /* border: 1px solid red; */
+    height: 60%;
+    width: 25vw;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 2px 10px 10px rgba(0, 0, 0, 0.244);
+}
+.upper{
+    background:linear-gradient(to left,#C057B7, #5452BA);
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.lower{
+    /* margin-top: 5%; */
+    padding: 2% 10%;
+    /* height: 85%; */
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 100%; */
+}
+.lower .lower-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 2px solid #DCDBDD;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    background-color: transparent;
+    /* margin-top: 5%; */
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 60px; */
+    width: 100%;
+}
+.box{
+    display: flex;
+    gap: 5px;
+}
+
+
+button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    background:linear-gradient(to left,#C057B7, #5452BA);
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 7% 0;
+
+
+}
+a{
+    text-decoration: none;
+}
